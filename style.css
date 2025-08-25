@@ -1,0 +1,31 @@
+.banner{
+/*background: linear-gradient(red, blue);
+    height: 500px;*/
+    background: linear-gradient(rgba(246, 230, 230, 0.726),rgba(17, 17, 222, 0.414)),url(image/download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 900px;
+}
+.banner-text{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 20%
+}
+.button{
+    margin-top: 300px;
+}
+.button-primary{
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.button-primary:hover{
+    background-color: blue;
+    color: red;
+}
